@@ -5,4 +5,6 @@
 #ifndef VCPKGSKELETON_PACKAGES_H
 #define VCPKGSKELETON_PACKAGES_H
 
+#include <raylib.h>
+
 #endif //VCPKGSKELETON_PACKAGES_H

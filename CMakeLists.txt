@@ -5,8 +5,6 @@ project(CmakeSkeleton)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(raylib CONFIG REQUIRED)
-
 if(WIN32)
     add_compile_definitions(WINDOWS=1)
 endif ()
@@ -25,4 +23,5 @@ else()
     add_compile_definitions(NDEBUG=1)
 endif(${CMAKE_BUILD_TYPE} MATCHES Debug)
 
+add_subdirectory(Packages)
 add_subdirectory(Main)

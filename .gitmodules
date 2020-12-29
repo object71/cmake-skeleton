@@ -1,0 +1,3 @@
+[submodule "Packages/raylib"]
+	path = Packages/raylib
+	url = https://github.com/raysan5/raylib
